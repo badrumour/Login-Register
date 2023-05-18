@@ -8,8 +8,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="landing" element={<Landing />} />
+          <Route path="/" element={<Register />} />
           <Route path="register" element={<Register />} />
           <Route path="*" element={<Error />} />
         </Routes>
